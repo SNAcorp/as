@@ -16,6 +16,7 @@
             background: #0a0a0a;
             color: #fff;
             overflow-x: hidden;
+
         }
         h1, h2, h3 {
             margin: 0;
@@ -97,6 +98,18 @@
             margin: 0 auto;
             opacity: 0.8;
         }
+
+        @media (max-width: 768px) {
+    .about {
+        padding: 100px 20px 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 80px 10px 60px;
+    }
+}
 
         /* Стили текста с анимациями */
         .intro-section {
@@ -265,6 +278,19 @@
                 align-items: center;
             }
         }
+
+        @media (max-width: 768px) {
+    h1 {
+        font-size: 36px; /* Меньший размер шрифта для мобильных */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px; /* Еще меньший размер для телефонов */
+        line-height: 1.2; /* Немного уменьшить высоту строки */
+    }
+}
     </style>
 </head>
 <body>
