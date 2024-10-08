@@ -9,4 +9,4 @@ services:
   redis-creators-app:
     image: "redis:alpine"
     ports:
-      - "6380:6380"
+      - "6381:6381"
