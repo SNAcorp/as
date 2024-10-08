@@ -1,0 +1,24 @@
+{
+  "founders": [
+    {
+      "nickname": "S.N.A.",
+      "name": "Степанов Никита",
+      "title": "Футуристический архитектор",
+      "image": "/avatars/sna.jpg"
+    },
+    {
+      "nickname": "ruvemaximus",
+      "name": "Никита Максимов",
+      "title": "Технический визионер",
+      "image": "/avatars/ruvemaximus.jpg"
+    }
+  ],
+  "members": [
+    {
+      "nickname": "DevMaster",
+      "name": "Алексей Иванов",
+      "title": "Разработчик",
+      "image": "/avatars/member1.jpg"
+    }
+  ]
+}

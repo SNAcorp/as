@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creators - Футуристичная команда разработчиков</title>
+    <link rel="icon" href="{{ url_for('static', path='/images/favicon.png') }}">
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
+    <!-- AOS Animations CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-HoQQuMZkDxxXyXJH0pb1SSVZmJfE3Z6jaV2GQJrzn8O6LpeNtSUnwiRTt7tbYHTu/k5msiV88oRgeK35E/mg3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    {% block content %}{% endblock %}
+    <!-- Подключение скриптов -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-HaPWfJYSh1/2eYE/J8qKFXz0e40mdW4foAz+0fgxgZjTj18+04clvFwecEJ3mpgZEL0KAGvfAxoAjWMLMzYlQg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init({ duration: 1000 });
+    </script>
+    <script src="{{ url_for('static', path='/js/scripts.js') }}"></script>
+</body>
+</html>

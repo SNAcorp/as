@@ -1,0 +1,12 @@
+services:
+  web-creators-app:
+    build: .
+    ports:
+      - "80:80"
+    depends_on:
+      - redis-creators-app
+
+  redis-creators-app:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
