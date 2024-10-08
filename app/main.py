@@ -47,7 +47,7 @@ async def submit_application(
         "phone": phone,
     }
 
-    await r.set(telegram_link, f"{application_data}")
+    r.set(telegram_link, f"{application_data}")
 
     # Здесь можно сохранить данные в базу данных или отправить уведомление
     data = {"phone_number": 79642245443, "message": f"{application_data}"}
